@@ -1,0 +1,70 @@
+h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    font-family: var(--main-font-family);
+    font-size: 25px;
+    padding: 60px 60px;
+  }
+  
+  .repository-1 {
+    background-image: url(https://www.usnews.com/dims4/USNEWS/6b05646/2147483647/crop/2000x1334%2B0%2B0/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F2e%2F61%2Fc6c5d4b3466eaf05835c99a80746%2F201203-c-stock.jpg);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    
+  .repository-2 {
+    background-image: url(https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  }
+  
+  .repository-3 {
+    background-image: url(https://digital55.com/wp-content/uploads/2022/01/roozbeh-eslami-1592483-unsplash.png);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  }
+  
+  
+  .repository-4 {
+    background-image: url(https://www.tooltyp.com/wp-content/uploads/2019/01/1900x920-beneficios-del-html5-y-el-css3-para-nuestra-marca.jpg);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  }
+  
+  .texto-cajas {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: none;
+    backdrop-filter: blur(10px);
+    width: 50%;
+  }

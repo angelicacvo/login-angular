@@ -1,0 +1,30 @@
+.login-container{
+  display: flex;
+  background-color: var(--layout-background);
+}
+
+form {
+  margin: 5% 30% 10% 30%;
+  padding: 8%;
+  background-image: url(https://i.pinimg.com/originals/a3/e9/58/a3e958c99bddc8aa31c2ec03d3c6db12.jpg);
+  color: var(--body-background);
+  border-radius: 1rem;
+}
+
+.form-control { 
+  width: 90%;
+}
+
+.error-message {
+  color: red;
+}
+
+.btn{
+  background-color: var(--button-color);
+  border: none;
+}
+
+.btn:hover{
+  background-color: var(--button-color-hover);
+  border: none;
+}

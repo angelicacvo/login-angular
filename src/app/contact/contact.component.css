@@ -1,0 +1,51 @@
+.contact-container{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 2%;
+    width: 60%;
+    color: black;
+    font-size: 20px;
+    background-image: url(https://www.ecoavant.com/uploads/s1/88/31/8/nature-4533378-1920_5_640x307.jpeg);
+    background-repeat: no-repeat;
+    border: 1px solid #CCC;
+    background-size: cover;
+    list-style-type: none;
+    border-radius: 1rem;
+}
+
+h3, li {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.list {
+    list-style-type: none;
+}
+
+a {
+    color: var(--body-background);
+}
+
+.contact-form {
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    justify-content: center;
+}
+
+form {
+    display: block;
+    width: 60%;
+    border: 1px solid #CCC;
+    background-size: 100%;
+    background-image: url(https://images.unsplash.com/photo-1558331289-8eb9eeee2afd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29vZHN8ZW58MHx8MHx8&w=1000&q=80) ;
+    color: var(--body-background);
+    padding-left: 10%;
+    padding-bottom: 2%;
+    border-radius: 1rem;
+}
+

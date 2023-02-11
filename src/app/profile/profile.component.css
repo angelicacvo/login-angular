@@ -1,0 +1,50 @@
+.head-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://static-cse.canva.com/blob/601160/howtostandoutwithabrilliantfacebookcoverphoto.jpg);
+}
+
+img{
+    margin: 5% 30% 1% 35%;
+    width: 25%;
+    border-radius: 100%;
+}
+
+h3 {
+    margin: 2% 35% 2% 35%;
+    backdrop-filter: blur(5px);
+    width: 30%;
+    color: var(--letters);
+}
+
+.head-container .btn{
+    margin-left: 80%;
+    background-color: var(--button-color);
+    border: none;
+  }
+
+  .head-container .btn:hover {
+    background-color: var(--button-color-hover);
+  }
+
+.body-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
+    justify-content: space-between;
+}
+
+.body-container .btn {
+    background-color: var(--button-color);
+    border: none;
+}
+
+.body-container .btn:hover{
+    background-color: var(--button-color-hover);
+}
