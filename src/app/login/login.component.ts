@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { AuthService } from '../auth.service';
 
 const USERNAME = 'admin';
-const PASSWORD = '123456';
+const PASSWORD = '1234';
 
 @Component({
   selector: 'app-login',
@@ -13,7 +13,7 @@ const PASSWORD = '123456';
 export class LoginComponent {
   userInfo = {
     username: 'admin',
-    name: 'Andrés',
+    name: 'Angelica',
   };
 
   username: string = '';
